@@ -24,7 +24,3 @@ func (c *controller) CreateBook(ctx *fiber.Ctx) error {
 
 	return ctx.JSON(book)
 }
-
-func (c *controller) GetBook(ctx *fiber.Ctx) error {
-	return ctx.JSON("GetBook")
-}
